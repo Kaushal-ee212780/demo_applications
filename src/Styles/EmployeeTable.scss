@@ -1,0 +1,30 @@
+
+.tableHeadlines h2{
+    color: rgb(179, 127, 228);
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+
+  th{
+    border: 1px solid;
+    height: 70px;
+    background: #b2c1ce;
+  }
+
+  td{
+    border: 1px solid;
+    height: 30px;
+    text-align: center;
+  }
+
+  tr:hover {
+    background-color: rgb(226, 216, 212);
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}

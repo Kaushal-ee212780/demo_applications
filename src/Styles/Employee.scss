@@ -1,0 +1,83 @@
+
+
+ .employeePage h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    color: #74ebd5;
+    /* text-decoration-line: underline; */
+    text-shadow: 2px 2px  black;
+    font-size: 40px;
+}
+
+.cardBox{
+    width: auto;
+    height: 60vh;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:  left;
+    background-color: #fff;
+    float: left; 
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse;
+    display: inline-flex;  */    
+           
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100% );
+    border-radius: 20px;
+    /* overflow: hidden; */
+    padding: 20px;
+    /* padding-top: 80px; */
+    margin: 20px;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); */
+    position: relative;
+    z-index: 0;
+}
+
+.card p{
+    font-size: 15px;
+    color: #777;
+}
+
+.card a{
+    font-size: 15px;
+    color: #777;
+    padding: 20px 0;
+}
+
+.count{
+    border-radius: 50%;
+    width: 40px;
+    height: 21px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #000;
+    font: 19px Arial, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+.card:hover{
+    transform: translateX(-5px) scale(1.005) translateZ(0);
+    box-shadow: 100px 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+    background: #444;
+    }
+
+    .card:hover .circle {
+        border-color: var(--bg-color-light);
+        background: var(--bg-color);
+      }
+
+      .card:hover .circle:after {
+        background: var(--bg-color-light);
+      }

@@ -1,0 +1,70 @@
+.contactContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+} 
+
+.mapContainer {
+    margin-left: 15rem;
+    width: 50%;
+    // float: left;
+    // padding: 20px;
+    // border: 2px solid red;
+    // background: #737373;
+}
+
+.formContainer{
+    margin-left: 15rem;
+    width: 50%;
+    // float: right;
+    // padding: 5px;
+    // border: 2px solid red; 
+    background: #4CAF50;
+    // background: #c3ecb2;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    color: #74ebd5;
+    /* text-decoration-line: underline; */
+    text-shadow: 2px 2px  black;
+    font-size: 40px;
+}
+
+form{
+   height: 350px;
+   text-align: center;
+}
+
+input {
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    border: none;
+    border-radius: 40px;
+  }
+  
+  label{
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+  }
+
+  .btn button{
+    background-color: #737373; 
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+  .btn button:hover{
+    background-color: #26435d;
+  }
